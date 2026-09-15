@@ -1,6 +1,6 @@
 ---
-name: table-diff-audit
-slug: table-diff-audit
+name: ym-table-diff-audit
+slug: ym-table-diff-audit
 display_name: 表格双表核对
 display_name_en: Table Diff Audit
 displayName: 表格双表核对
@@ -22,7 +22,7 @@ trigger:
 agent_created: true
 ---
 
-# 表格双表核对 (table-diff-audit)
+# 表格双表核对 (ym-table-diff-audit)
 
 按匹配键把两份表格逐行比对，给出未匹配、重复键、数值差异，并让结果可复算——普通对话容易漏掉重复键、把空值当 0、用等号比浮点，这些坑这里一次性堵住。
 
